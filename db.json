@@ -1,0 +1,16 @@
+{
+    "todos": [
+      {
+        "text": "Study Algebra with Trigonometry",
+        "isCompleted": false,
+        "createdAt": 1700890145691,
+        "id": 1
+      },
+      {
+        "text": "Study TypeScript",
+        "isCompleted": true,
+        "createdAt": 1700945771790,
+        "id": 2
+      }
+    ]
+  }
