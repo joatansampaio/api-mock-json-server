@@ -6,11 +6,7 @@ const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
-server.use(cors({
-    origin: 'https://todo-app-vuejs-joatansampaio.vercel.app/', 
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    credentials: true, 
-}));
+server.use(cors());
 
 
 server.use(
